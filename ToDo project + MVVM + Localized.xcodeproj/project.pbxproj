@@ -14,6 +14,8 @@
 		C01DA58F270EE4EC0068506D /* ToDo_project___MVVM___LocalizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DA58E270EE4EC0068506D /* ToDo_project___MVVM___LocalizedTests.swift */; };
 		C01DA599270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DA598270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITests.swift */; };
 		C01DA59B270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DA59A270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITestsLaunchTests.swift */; };
+		C01DA5A9270EE7FC0068506D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01DA5AB270EE7FC0068506D /* Localizable.strings */; };
+		C01DA5B0270EEB740068506D /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = C01DA5B2270EEB740068506D /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,12 @@
 		C01DA594270EE4EC0068506D /* ToDo project + MVVM + LocalizedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo project + MVVM + LocalizedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01DA598270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo_project___MVVM___LocalizedUITests.swift"; sourceTree = "<group>"; };
 		C01DA59A270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDo_project___MVVM___LocalizedUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		C01DA5AA270EE7FC0068506D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C01DA5AC270EE7FF0068506D /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C01DA5AD270EE8010068506D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C01DA5B1270EEB740068506D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		C01DA5B3270EEB760068506D /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ca; path = ca.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		C01DA5B4270EEB7E0068506D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,8 @@
 				C01DA57F270EE4EA0068506D /* ContentView.swift */,
 				C01DA581270EE4EB0068506D /* Assets.xcassets */,
 				C01DA583270EE4EB0068506D /* Preview Content */,
+				C01DA5AB270EE7FC0068506D /* Localizable.strings */,
+				C01DA5B2270EEB740068506D /* Localizable.stringsdict */,
 			);
 			path = "ToDo project + MVVM + Localized";
 			sourceTree = "<group>";
@@ -212,6 +222,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
+				ca,
 				Base,
 			);
 			mainGroup = C01DA571270EE4EA0068506D;
@@ -232,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01DA585270EE4EB0068506D /* Preview Assets.xcassets in Resources */,
+				C01DA5B0270EEB740068506D /* Localizable.stringsdict in Resources */,
+				C01DA5A9270EE7FC0068506D /* Localizable.strings in Resources */,
 				C01DA582270EE4EB0068506D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +307,29 @@
 			targetProxy = C01DA595270EE4EC0068506D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01DA5AB270EE7FC0068506D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01DA5AA270EE7FC0068506D /* en */,
+				C01DA5AC270EE7FF0068506D /* ca */,
+				C01DA5AD270EE8010068506D /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C01DA5B2270EEB740068506D /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01DA5B1270EEB740068506D /* en */,
+				C01DA5B3270EEB760068506D /* ca */,
+				C01DA5B4270EEB7E0068506D /* es */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C01DA59C270EE4EC0068506D /* Debug */ = {
