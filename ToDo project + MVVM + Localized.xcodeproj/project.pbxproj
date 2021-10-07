@@ -16,6 +16,8 @@
 		C01DA59B270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DA59A270EE4EC0068506D /* ToDo_project___MVVM___LocalizedUITestsLaunchTests.swift */; };
 		C01DA5A9270EE7FC0068506D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01DA5AB270EE7FC0068506D /* Localizable.strings */; };
 		C01DA5B0270EEB740068506D /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = C01DA5B2270EEB740068506D /* Localizable.stringsdict */; };
+		C01DA5B6270F05500068506D /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DA5B5270F05500068506D /* TaskModel.swift */; };
+		C01DA5B8270F0BCD0068506D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01DA5B7270F0BCD0068506D /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C01DA5B1270EEB740068506D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		C01DA5B3270EEB760068506D /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ca; path = ca.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		C01DA5B4270EEB7E0068506D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		C01DA5B5270F05500068506D /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		C01DA5B7270F0BCD0068506D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				C01DA583270EE4EB0068506D /* Preview Content */,
 				C01DA5AB270EE7FC0068506D /* Localizable.strings */,
 				C01DA5B2270EEB740068506D /* Localizable.stringsdict */,
+				C01DA5B5270F05500068506D /* TaskModel.swift */,
+				C01DA5B7270F0BCD0068506D /* TaskViewModel.swift */,
 			);
 			path = "ToDo project + MVVM + Localized";
 			sourceTree = "<group>";
@@ -271,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01DA5B6270F05500068506D /* TaskModel.swift in Sources */,
+				C01DA5B8270F0BCD0068506D /* TaskViewModel.swift in Sources */,
 				C01DA580270EE4EA0068506D /* ContentView.swift in Sources */,
 				C01DA57E270EE4EA0068506D /* ToDo_project___MVVM___LocalizedApp.swift in Sources */,
 			);
